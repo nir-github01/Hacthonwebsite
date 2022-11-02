@@ -14,14 +14,112 @@
     flex-direction:row;
     border: 2px solid red;
 }
+.headerdiv{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin: 2rem;
+}
+.search_div, input{
+    font-size: large;
+    width: 25rem;
+    border: 0.8px rgb(184, 177, 224);
+    height: 2.8rem;
+    border-radius: 0.7vw;
+    margin: auto;
+}
+.search_div:hover{
+    width: 16rem;
+     border: 0.8px rgb(145, 145, 182);
+    height: 2.9rem;
+    border-radius: 0.7vw;
+    margin: auto;
+}
+th img{
+    width: 20rem;
+    height: 20rem;
+    border: 2px solid red;
+    border-radius: 10vw;
+}
+
 .nav{
     width: 15%;
-    height: 50rem;
+    height: 70rem;
     background-color: rgb(31, 30, 30);
     border: 2px solid rgb(2, 65, 18);
 }
+.nav_box{
+    margin: 4rem 0 0 0;
+
+}
+.nav_box table th{
+    width: 9rem;
+    height: 3.4rem;
+    color: #f5f1ed;
+    text-align: center;
+    /* letter-spacing: 1px; */
+    text-transform: uppercase;
+
+}
+.nav_box table th:hover{
+    text-align: center;
+    background-size:cover;
+    background-color: rgb(134, 25, 102);
+    border-radius: 0.6vw;
+    cursor: pointer;
+    margin: auto;
+
+}
 .img_div{
     background-color: hwb(30 93% 4%);
+}
+.head_img_div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.img_div figure img{
+    border: 2px solid red;
+    width: 20rem;
+    height: 20rem;
+   
+  
+
+}
+.figcap_name{
+    font-size: larger;
+    padding: 1rem 0 0 0;
+    margin: 2rem 0 0 0;
+}
+.figcap_btn_div{
+    display: flex;
+   flex-direction: row;
+    justify-content: end;
+}
+.figcap_btn_div figcaption{
+    padding: 0 ;
+    margin: 0 ;
+}
+.figcap_btn{
+    width: 8rem;
+    height: 3.7rem;
+    font-size: larger;
+    font-weight: bolder;
+    float:right;
+    background-color: rgb(131, 11, 95);
+    margin-left: 2rem;
+    color: #f5f1ed;
+    border-radius: 0.6vw;
+
+}
+.footer_div{
+    text-align: center;
+    font-size: large;
+    color: #f5f1ed;
+    margin-top: 40rem;
 }
 .main_section{
   
@@ -45,6 +143,17 @@
     background-color:white;
     border: 2px solid rgb(0, 255, 85);
 }
+.para2_div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.para2_div p{
+    width: 15rem;
+    border: 1px solid red;
+}
 .feedback{
     display: flex;
     flex-wrap: wrap;
@@ -61,4 +170,27 @@ background-color: beige;
 }
 .feedback2{
     background-color: beige;
+}
+.show_all{
+    margin-left: 8rem;
+    float: right;
+}
+.room_select_btn_div{
+    width: 10rem;
+    text-align: justify;
+    font-size: large;
+    margin: 4rem 0 0 1rem;
+    position: relative;
+    z-index: 1;     
+    
+}
+.book_now_btn{
+    float: right;
+    font-size: large;
+    font-weight: bold;
+    color: #f5f1ed;
+    width: 10rem;
+    height: 4rem;
+    border-radius: 0.6vw;
+    background-color: rgb(121, 8, 76);
 }
